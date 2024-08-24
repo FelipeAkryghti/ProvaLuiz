@@ -1,0 +1,130 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(img/bck.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.hero-content{
+    margin: 50px auto 0;
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1{
+    font-size: 40px;
+    text-shadow: 4px 2px 2px rgb(128, 104, 248);
+    text-transform: uppercase;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom: 4px solid;
+    padding: 16px 0;
+    transition: ease 1s all;
+}
+
+.hero-content h1:hover{
+    transform: scale(1.05);
+}
+.hero-content p{
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    display: inline-block;
+    padding: 14px;
+    border-bottom: 2px solid;
+}
+
+.hero nav ul{
+    margin: 20px 50px 0 0;
+    text-align: right;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid white;
+    margin-left: 15px;
+}
+.hero nav a{
+    background-color: black;
+    padding: 16px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    transition: ease .3s all;
+}
+.hero nav a:hover{
+    background-color: #2a2a2a; 
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+}
+
+article{
+    background-color: #2a2a2a;
+    color: white;
+    padding: 16px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    transition: ease 1s all;
+    text-align: justify;
+    width: 100%;
+    box-shadow: -4px 4px 2px rgb(128, 104, 248);
+    
+}
+
+article:hover{
+    transform: scale(1.05);
+}
+
+article h2{
+    border-bottom: 2px solid #ccc;
+    text-shadow: 1px 2px 2px rgb(128, 104, 248);
+    background-color: black;
+    padding: 16px;
+    margin-top: 0px;
+}
+
+.btn{
+    display: block;
+    text-decoration: none;
+    background-color: #dad7d7;
+    border-radius: 6px;
+    padding: 12px 16px;
+    color:black;
+    margin-left: auto;
+    width: 90px;
+    width: fit-content;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, .7);
+    color: white;
+    border-radius: 6px black;
+}
+
+.rodape{
+    color: white;
+    background-color: #2a2a2a;
+    text-align: center;
+    padding: 15px;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+}
+
+.rodape p{
+    text-shadow: 4px 2px 2px rgb(128, 104, 248);
+}
